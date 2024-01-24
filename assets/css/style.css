@@ -99,15 +99,15 @@ hr{
 
 .nav-item{
     color: #c1c2c2;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 0 10px;
 
-    width: 108px;
-    height: 26px;
+    /* width: 108px; */
+    /* height: 26px;
     position: relative;
     box-sizing: border-box;
     overflow: visible;
-    visibility: inherit;
+    visibility: inherit; */
 }
 .nav-item :hover{
     color: #019ad3;
