@@ -17,19 +17,28 @@
         <a class="navbar-brand" href="#">
           <img class="nav-logo" src = "assets/svg/tbc.svg" alt="TBC Logo"/>
         </a>
-        <button class="navbar-toggler" type="button" >
-          <i class="fa fa-bars" aria-hidden="true"></i>
-          <div id="MENU_AS_CONTAINER_TOGGLE" class="gRZbpU MENU_AS_CONTAINER_TOGGLE wixui-mobile-menu__icon" role="button" aria-haspopup="dialog" aria-label="Open navigation menu" tabindex="0">
-            <div class="dgPk4k">
+
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> -->
+        <!-- <button class="navbar-toggler" type="button" aria-haspopup="dialog" aria-label="Open navigation menu" tabindex="0"> -->
+          <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+          <!-- <div > -->
+            <!-- <div data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <div class="E1aQjL">
                 <div class="RUMyTm MSAuvJ B2yNzi"></div>
                 <div class="RUMyTm Oq33I3"></div>
                 <div class="RUMyTm MSAuvJ C8olY8"></div>
               </div>
-            </div>
-          </div>
+            </div> -->
+          <!-- </div> -->
+        <!-- </button> -->
+        <button class="navbar-toggler navbar-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNavAltMarkup" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+            <div class="top-line"></div>
+            <div class="mid-line"></div>
+            <div class="bot-line"></div>
         </button>
-        <div class="collapse navbar-collapse justify-content-end">
+    
+        <div class="collapse navbar-collapse justify-content-end"  id="navbarNavAltMarkup">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-item nav-item-active">
@@ -479,6 +488,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   <script src="assets/js/navbar.js"></script>
   <script src="assets/js/slider.js"></script>
