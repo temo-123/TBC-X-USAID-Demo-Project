@@ -42,7 +42,7 @@ button{
     -webkit-transition: all .6s ease;
 }
 
-.header{
+.header-section{
     background-color: #2b2b2b;
 }
 .header-block {
@@ -90,7 +90,7 @@ button{
     line-height: 1.6em;
 }
 .main-button{
-    margin: 0px 20px 57px 0;
+    padding: 0px 20px 57px 0;
 }
 
 .nav-logo {
@@ -130,7 +130,6 @@ button{
         margin-top: 10%;
         line-height: 4;
     }
-    
 }
 .top-line{
     height: 3.5px;
@@ -184,7 +183,10 @@ button{
 .cards-list-title{
     font-size: 24px;
     line-height: normal;
-    margin: 34px 0px 31px 0;;
+    margin: 34px 0px 31px 0;
+}
+.cards-list-title a{
+    float: right;
 }
 .cards-list{
     margin: 5% 0 5% 0;
@@ -306,9 +308,8 @@ button{
 .active, .dot:hover {
     background-color: #666565;
 }
-
 .questions-section{
-    margin-bottom: 5%;
+    margin: 7% 0 5% 0;
 }
 .question-button{
     box-sizing: content-box;
@@ -370,11 +371,25 @@ button{
 .footer-section{
     background-color: #1a1e1f;
 }
+.footer-row{
+    margin-top: 20px;
+}
 .footer-container{
     padding: 6% 0 3% 0;
 }
 .footer-social-icons{
     float: right;
+}
+.footer-social-icon img{
+    width: 39px; 
+    height: 39px; 
+    object-fit: cover;
+}
+.footer-logo{
+    width: 106px; 
+    height: 30px; 
+    object-fit: cover; 
+    object-position: 50% 50%;
 }
 .footer-button{
     border-radius: 4px;
@@ -387,4 +402,12 @@ button{
     background-color: #FFF;
     color: #1a1919;
 }
-
+.footer-text-button{
+    color: #fff;
+}
+.footer-text-button:hover{
+    color: #868383;
+}
+.footer-text{
+    color: #fff;
+}
